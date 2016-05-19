@@ -1,5 +1,5 @@
 <?php
-/* Hauptmen  */
+/* Hauptmenue  */
 require "general_methods.inc.php";
 check_session(true, array("admin", "Gast"));
 ?>
@@ -21,7 +21,7 @@ print $menu;
 
 <p align="center">
 	<iframe name="ChatFrame"  border="0" frameborder="0" width="459" height="426" src="framestart.php">
-	Ihr Browser untersttzt Inlineframes nicht oder zeigt sie in der derzeitigen Konfiguration nicht an.
+	Ihr Browser unterst&uuml;tzt Inlineframes nicht oder zeigt sie in der derzeitigen Konfiguration nicht an.
 	</iframe>
 </p>
 </body> 
